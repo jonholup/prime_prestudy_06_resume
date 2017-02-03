@@ -1,3 +1,5 @@
-$("button").click(function(){
+$(document).ready(function(){
+  $("button").click(function(){
     $("#container").toggle();
+});
 });
