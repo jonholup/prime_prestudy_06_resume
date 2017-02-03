@@ -2,11 +2,15 @@
 * {
   font-family: "Quicksand",sans-serif;
 }
-
 button {
   text-align: center;
-  background-color: #008CBA;
-  font-size: 4em;
+  background-color: #00000;
+  font-size: 2em;
+  width: 100%;
+}
+button:hover {
+    background-color: #fff;
+
 }
 #container {
   margin: 60px auto 60px;
@@ -26,7 +30,7 @@ header {
   margin: 6%;
   box-sizing: border-box;
 }
-#contact {
+address {
   margin: 11% auto 12% auto;
   line-height: 1.6em;
   font-weight: bold;
@@ -63,7 +67,7 @@ section {
   margin-bottom: 2em;
   line-height: 1.6em;
 }
-.class p{
+.experience p{
   margin-bottom: 3em
 }
 
