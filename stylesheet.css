@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+* {
+  font-family: "Quicksand",sans-serif;
+}
+
+button {
+  text-align: center;
+  background-color: #008CBA;
+  font-size: 4em;
+}
+#container {
+  margin: 60px auto 60px;
+  width: 75%;
+  display: none;
+}
+.block {
+  text-align: center;
+}
+header {
+  font-size: 3.5em;
+  border-style: dotted double dotted;
+  color: #86AA5C;
+  border-width: thick;
+  border-color: #D6A4AF;
+  padding: 2%;
+  margin: 6%;
+  box-sizing: border-box;
+}
+#contact {
+  margin: 11% auto 12% auto;
+  line-height: 1.6em;
+  font-weight: bold;
+  font-size: 1.1em;
+  transform: rotate(-3deg);
+  background: linear-gradient(to bottom, #86AA5C, #D6A4AF);
+  width: 75%;
+}
+section {
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    line-height: 1.4em;
+}
+.workTitle {
+  border-bottom: 1px solid;
+
+}
+.workPlace {
+  font-weight: bold;
+  font-size: 1.6em;
+  display: inline-block;
+  width: 60%;
+}
+.workDates {
+  font-style: italic;
+  text-align: right;
+  display: inline-block;
+  font-weight: bolder;
+  width: 38%;
+}
+
+.experience {
+  margin-bottom: 2em;
+  line-height: 1.6em;
+}
+.class p{
+  margin-bottom: 3em
+}
+
+h2 {
+  font-size: 1em;
+}
