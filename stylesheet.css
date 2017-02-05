@@ -36,8 +36,19 @@ address {
   font-weight: bold;
   font-size: 1.1em;
   transform: rotate(-3deg);
-  background: linear-gradient(to bottom, #86AA5C, #D6A4AF);
-  width: 75%;
+  background-color: #86AA5C;
+  /*background: linear-gradient(to bottom, #D6A4AF, #86AA5C);*/
+  width: 80%;
+  letter-spacing: 1.2em;
+}
+
+address p {
+  margin: 0;
+}
+
+
+address p:nth-child(2n+1) {
+  background-color: #D6A4AF;
 }
 section {
     padding: 0;
@@ -64,11 +75,11 @@ section {
 }
 
 .experience {
-  margin-bottom: 2em;
-  line-height: 1.6em;
+  margin-bottom: 1.8em;
+  line-height: 1.8em;
 }
 .experience p{
-  margin-bottom: 3em
+  margin: 0 0 2em 0;
 }
 
 h2 {
